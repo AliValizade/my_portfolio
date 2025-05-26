@@ -1,0 +1,23 @@
+# Virtual environment
+env/
+venv/
+__pycache__
+
+# Django files
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*/locale/*
+*/static_root/*
+*/media_root/*
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
